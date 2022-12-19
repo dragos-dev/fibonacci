@@ -27,6 +27,8 @@ fn main() {
             first_value = second_value;
             second_value = sum_value;
         }
+
+        println!("Your value: {}", second_value);
     }
 }
 
