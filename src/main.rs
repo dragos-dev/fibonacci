@@ -19,6 +19,14 @@ fn main() {
             }
         };
 
+        let mut first_value: u128 = 1;
+        let mut second_value: u128 = 1;
+
+        for _ in (0..number -2).rev() {
+            sum_value = first_value + second_value;
+            first_value = second_value;
+            second_value = sum_value;
+        }
     }
 }
 
